@@ -2,9 +2,16 @@
 
 An end-to-end carbon accounting and ESG reporting prototype. It ingests, normalizes, and calculates CO2e emissions for Scope 1 (Direct fuel), Scope 2 (Indirect electricity), and Scope 3 (Business travel) activities, offering audit trails and anomaly detection.
 
+### Documentation Quick Links
+* **[Architectural Decisions (DECISIONS.md)](DECISIONS.md)**
+* **[Data Model Specification (MODEL.md)](MODEL.md)**
+* **[Emission Factor Sources (SOURCES.md)](SOURCES.md)**
+* **[Tradeoffs & Assumptions (TRADEOFFS.md)](TRADEOFFS.md)**
+* **[Frontend App Details (frontend/README.md)](frontend/README.md)**
+
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **Backend**: Django & Django REST Framework (Python), SQLite database.
 * **Frontend**: React (Vite), Vanilla CSS, responsive dashboard.
@@ -12,7 +19,7 @@ An end-to-end carbon accounting and ESG reporting prototype. It ingests, normali
 
 ---
 
-## 📁 Project Directory Structure
+## Project Directory Structure
 
 * **`backend/`**: Django project containing APIs for data ingestion, audit logging, facility scoping, and record processing.
 * **`frontend/`**: React application featuring data ingestion uploads, a normalized ledger table, and analytics dashboards.
@@ -22,7 +29,7 @@ An end-to-end carbon accounting and ESG reporting prototype. It ingests, normali
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Prerequisites**: Ensure you have `python3` (with `venv`), `node` and `npm` installed.
 2. **Setup Dependencies**:
@@ -38,7 +45,7 @@ An end-to-end carbon accounting and ESG reporting prototype. It ingests, normali
 
 ---
 
-## 📖 Key Documentation
+## Key Documentation
 
 * **[`DECISIONS.md`](DECISIONS.md)**: Architectural and mathematical decisions (e.g., daily proration, Haversine formula, outlier flagging thresholds).
 * **[`MODEL.md`](MODEL.md)**: Database ER schema and normalization rules.
