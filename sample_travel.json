@@ -1,0 +1,29 @@
+{
+  "id": "TRIP-2026-X10",
+  "traveler": {
+    "name": "Jane Doe",
+    "department": "Engineering"
+  },
+  "bookings": [
+    {
+      "type": "AIR",
+      "departure_airport": "JFK",
+      "arrival_airport": "LHR",
+      "cabin_class": "BUSINESS",
+      "date": "2026-05-15"
+    },
+    {
+      "type": "HOTEL",
+      "city": "US",
+      "nights": 4,
+      "check_in_date": "2026-05-16"
+    },
+    {
+      "type": "AIR",
+      "departure_airport": "LHR",
+      "arrival_airport": "SIN",
+      "cabin_class": "ECONOMY",
+      "date": "2026-05-20"
+    }
+  ]
+}

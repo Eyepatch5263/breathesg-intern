@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Eyepatch5263/breathesg-frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Eyepatch5263/breathesg-backend

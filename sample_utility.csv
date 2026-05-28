@@ -1,0 +1,3 @@
+Account Number,Meter Number,Billing Start Date,Billing End Date,Usage kWh,Total Cost
+ACC-1000,MTR-1000,2026-01-15,2026-02-14,3100,620.00
+ACC-1000,MTR-1000,2026-02-15,2026-03-16,2900,580.00
